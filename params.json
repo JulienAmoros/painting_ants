@@ -1,0 +1,35 @@
+{
+  "canvas_height": 250,
+  "canvas_width": 250,
+  "steps": 1000,
+  "ants": [
+    {
+      "color_painted": {"R": 255, "G": 0, "B": 0},
+      "color_followed": {"R": 0, "G": 255, "B": 0},
+      "movement": {
+        "probability": {"G": 1, "N": 1, "D": 1},
+        "type": "O"
+      },
+      "follow_probability" : 0.4
+    },
+    {
+      "color_painted": {"R": 0, "G": 255, "B": 0},
+      "color_followed": {"R": 0, "G": 0, "B": 255},
+      "movement": {
+        "probability": {"G": 1, "N": 1, "D": 1},
+        "type": "O"
+      },
+      "follow_probability" : 0.4
+    },
+    {
+      "color_painted": {"R": 0, "G": 0, "B": 255},
+      "color_followed": {"R": 255, "G": 0, "B": 0},
+      "movement": {
+        "probability": {"G": 1, "N": 1, "D": 1},
+        "type": "O"
+      },
+      "follow_probability" : 0.4
+    }
+  ]
+
+}
